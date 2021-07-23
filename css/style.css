@@ -1,0 +1,50 @@
+.container2{
+    display: flex !important;
+    justify-content:column !important;
+}
+.ris{
+
+    display: flex !important;
+    width: 60% !important;
+    height: 60% !important;
+    padding-right: 50px !important;
+}
+body{
+    background:url(https://img.freepik.com/free-vector/white-abstract-background-in-3d-paper-style_23-2148403778.jpg?size=626&ext=jpg)0 0/100% auto no-repeat;
+    
+}
+.d-block {
+    border-radius: 360px; 
+   }
+   
+.korol{
+    display: flex;
+    justify-content: space-between;
+    width:40% !important;
+    padding-bottom: 40% !important;
+}
+.zvet{
+    display: flex !important;
+    padding: 0 !important;
+    font-size: 20px !important;
+}
+.pit{
+    display: flex !important;
+    padding-top:10% !important;
+    padding-right: 50% !important;
+
+}
+.vse{
+    padding: 20 10 !important;
+}
+.vov{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.wow{
+    
+    width: 50% !important;
+    height: 10% !important;
+}

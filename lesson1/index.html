@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>T.pass</title>
+</head>
+<body>
+    <nav>
+        <div class="nav__iner">
+            <img src="./assets/images/logo.svg" alt="logo">
+            <div class="nav__iner_list">
+                <p>Stors</p>
+                <p>Support & Help</p>
+                <button>Downloud</button>
+            </div>
+            <img src="./assets/icons/menu.svg" alt="menu" id="burger-menu">
+            <img src="./assets/icons/close.svg" alt="close" id="close-menu">
+        </div>
+        <div class="nav__menu">
+            <a href="#">Stores</a>
+            <a href="#">Support & Help</a>
+            <a href="#">Downloud</a>
+        </div>
+    </nav>
+    <section class="container hero">
+    <div class="hero__left">
+        <h1>
+            <span style= "color:#00CCCC">
+                Order ahead
+            </span>
+            and earn rewards for every purchase
+            <span style ="color: #F3AF47">.</span>
+        </h1>
+        <button>
+            discover now
+        </button>
+    </div>
+    <div class="hero__right">
+        <img src="./assets/images/hero_image.png" alt="hero_image" id="hero__image">
+        <img src="./assets/images/trees.svg" alt="trees" id="trees">
+
+
+    </div>
+</section>
+
+    <script>
+        const burger_menu = document.getElementById('burger-menu');
+        const close_menu = document.getElementById('close-menu');
+        const nav__menu = document.querySelector('nav__menu');
+        const hero = document.querySelector('.hero');
+
+        burger_menu.addEventListener('click', () =>{
+            nav_menu.classList.toggle("nav__menu--active");
+            hero.classList.toggle('hero--active')
+        } )
+    </script>
+    
+</body>
+</html>
